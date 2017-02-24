@@ -8,8 +8,8 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create(title: 'Rails, Angular, Postgres, and Bootstrap',
-  description:
+Product.create(Title: 'Rails, Angular, Postgres, and Bootstrap',
+  Description:
     %{<p>
       <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
       As a Rails developer, you care about user experience and performance,
@@ -21,11 +21,11 @@ Product.create(title: 'Rails, Angular, Postgres, and Bootstrap',
       and learn to use these technologies effectively in a Ruby on Rails
       environment.
       </p>},
-  image_url: 'dcbang.jpg',    
-  price: 45.00)
+  Image_Url: 'dcbang.jpg',    
+  Price: 45.00)
 # . . .
-Product.create(title: 'Seven Mobile Apps in Seven Weeks',
-  description:
+Product.create(Title: 'Seven Mobile Apps in Seven Weeks',
+  Description:
     %{<p>
       <em>Native Apps, Multiple Platforms</em>
       Answer the question “Can we build this for ALL the devices?” with a
@@ -34,12 +34,12 @@ Product.create(title: 'Seven Mobile Apps in Seven Weeks',
       experienced developer needing to expand your options. Plus, you’ll find
       out which cross-platform solution makes the most sense for your needs.
       </p>},
-  image_url: '7apps.jpg',
-  price: 26.00)
+  Image_Url: '7apps.jpg',
+  Price: 26.00)
 # . . .
 
-Product.create(title: 'Ruby Performance Optimization',
-  description:
+Product.create(Title: 'Ruby Performance Optimization',
+  Description:
     %{<p>
       <em>Why Ruby Is Slow, and How to Fix It</em> 
       You don’t have to accept slow Ruby or Rails performance. In this
@@ -51,5 +51,5 @@ Product.create(title: 'Ruby Performance Optimization',
       all those “hard” things aren’t so difficult after all, and your code
       will run orders of magnitude faster.
       </p>},
-  image_url: 'adrpo.jpg',
-  price: 46.00)
+  Image_Url: 'adrpo.jpg',
+  Price: 46.00)
